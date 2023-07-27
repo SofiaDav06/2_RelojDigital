@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: rgb(255,193,242);
+    background: linear-gradient(90deg, rgba(255,193,242,1) 0%, rgba(199,255,236,1) 50%, rgba(160,178,255,1) 100%);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
+}
+
+.container{
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3.4px);
+    -webkit-backdrop-filter: blur(3.4px);
+    border: 1px solid rgba(255, 255, 255, 0.72);
+    display: flex;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 15px;
+    font-size: larger;
+    width: 30%;
+    height: 15%;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.reloj{
+    font-size: 30px;
+    
+}
+
+p{
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    /* right: 25px; */
+
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+span{
+    position: absolute;
+    font-size: 100px;
+    color: rgb(144, 202, 183);
+    transform: rotate(-30deg);
+
+}
